@@ -1,5 +1,5 @@
-# DCGAN_faces
-![faces_intro](https://github.com/NadimKawwa/DCGAN_faces/blob/master/plots/intro.png)
+# Face Generation With Deep Convolutional Generative Adversarial Networks
+![faces_intro](https://github.com/NadimKawwa/DCGAN_faces/blob/master/plots/cover_dcgan.png)
 
 In this repository we will attempt to generate realistic faces from the [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) using deep convolutional generative adversarial networks (DCGANs) per Radford et al [1]. The code is implemtend in python 3.x
 
@@ -76,9 +76,11 @@ We notice that the output resembles human like features, yet is not close to the
 
 ![fake_images](https://github.com/NadimKawwa/DCGAN_faces/blob/master/plots/fake_faces.png)
 
+The model can definitely improved upon with more experimentation and tips from Soumith Chintala[2].
 
 
 ## References
 [1] https://arxiv.org/abs/1511.06434
+[2] https://github.com/soumith/ganhacks
 
-Credit to Udacity for the notebook layout, unit tests, and sketches of Discriminator and Generator networks.
+Credit to Udacity for the notebook layout, cover photo, unit tests, and sketches of Discriminator and Generator networks.
